@@ -1,12 +1,12 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
   <head>
     <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0, user-scalable=no">
-    <title>Fotos</title>
+    <title>Comentarios</title>
     <link href="https://fonts.googleapis.com/css?family=Open+Sans:400,700" rel="stylesheet">
-    <link rel="stylesheet" href="css/estilofotos.css">
-    
+    <link rel="stylesheet" href="css/estilofrom.css">
+
   </head>
 
 
@@ -19,10 +19,8 @@
         </div>
         <nav class="menu">
             <a href= "../index.html">Inicio</a>
-        <a href="musica.html">Musica</a>
-        <a href="libros.html">Libros</a>
         </nav>
-      </div>
+        </div> 
     </header>
 
     <!-- Banner principal -->
@@ -30,7 +28,7 @@
       <div>
         <div class="contenedor llamada-accion">
     
-          <h2>FOTOS</h2>
+          <h2>Comentarios</h2>
         </div>
       </div>
     </section>
@@ -40,16 +38,27 @@
       <div class="contenedor">
 
     
-      </div>
-    </section>
-    <!-- Sección sobre verano -->
-    <section class="Verano2022">
-      <div class="contenedor">
-        <div class="fotoverano22">
-        <div>
-        <H2>Viaje de Verano 2022</H2>
-        <img src="img/v1.jpg" width="900px" height="600px">
-       </div>
+            <div>
+            <!--Title--->
+            <h1>FORMULARIO</h1>
+            <!---FORMULARIO--->
+            <form id="formulario" >
+                <!--name-->
+                <input class="form-control mb-2" placeholder="Nombre" autocomplete="off" type="text" value="Ximena" id="userName" />
+    
+                <textarea id="mensaje" rows="4" cols="30">Deja tu mensaje</textarea>
+                <!--mail-->
+                <input class="form-control mb-2" placeholder="Correo" autocomplete="off" type="email" value="xxxx@gmail.com" id="userEmail"/>
+                <!---button-->
+                <button class="btn btn-primary" type="submit">Enviar</button> 
+            </form>
+        </div>
+           <!----Scripts---->
+        <script src="app.js"></script>
+    
+    
+        
+        
     </section>
    
    
@@ -69,3 +78,12 @@
 </html>
 
 
+
+
+
+
+
+
+
+
+   
